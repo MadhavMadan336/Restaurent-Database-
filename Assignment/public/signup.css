@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-image: url(""); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Ensures background covers entire viewport */
+    display: flex; /* Allow centering of the form container */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 300px;
+    background-color: #fff; /* Set white background for the form */
+    padding: 20px; /* Add some padding inside the form */
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a slight shadow */
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
